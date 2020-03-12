@@ -1,6 +1,6 @@
-# Adonis fullstack application
+# Adonis fullstack uyguması
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+AdonisJS Fullstack uygulamasıdır.
 
 1. Bodyparser
 2. Session
@@ -11,20 +11,18 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 7. Lucid ORM
 8. Migrations and seeds
 
-## Setup
+## Kurulum
 
-Use the adonis command to install the blueprint
+Bu uygulamayı kurmak için alttaki komutu kullanın.
 
 ```bash
 adonis new gorevtakip
 ```
 
-or manually clone the repo and then run `npm install`.
 
+### Veritabanı Migrations
 
-### Migrations
-
-Run the following command to run startup migrations.
+Veritabanını bağladıktan sonra tabloları veritabanında oluşturmak için alttaki migration komutunu kullanın.
 
 ```js
 adonis migration:run
