@@ -1,4 +1,4 @@
-# Adonis fullstack uyguması
+# Adonis fullstack uygulaması
 
 AdonisJS Fullstack uygulamasıdır.
 
