@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>
+      @!section('baslik')
+  </title>
+  {{ style('style') }}
+</head>
+<body>
+    <header>
+        <a href="/" id="logo">Görev Uygulaması</a>
+        <nav>
+            <ul>
+                <li><a href="/">Tüm Görevler</a></li>
+                <li><a href="/login">Giriş</a></li>
+                <li><a href="/signup">Kayıt Ol</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        @!section('icerik')
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@layout('layout.master')
+
+@section('baslik')
+BURASI SEKME BAŞLIĞI
+@endsection
+
+@section('icerik')
+
+<h1>Tüm Görevler</h1>
+@each(gorev in gorevler)
+<div class="job-container">
+  <div class="blank">BOŞ KUTU</div>
+    <div class="job-info">
+      <h3><a href="/">Görev Başlığı</a></h3>
+      <p>Görev detay içeriği burada görünecek.</p>
+    </div>
+</div>
+@endeach
+
+@endsection
