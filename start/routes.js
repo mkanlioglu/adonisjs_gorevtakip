@@ -17,3 +17,8 @@
 const Route = use('Route')
 
 Route.get('/','GorevController.home');
+
+Route.on('/signup').render('auth.signup');
+Route.post('/signup', 'UserController.create').validator('CreateUser');
+Route.on('/login').render('auth.login');
+
